@@ -70,7 +70,7 @@ class ApiController extends AbstractController
     #[Route('/measurement-test123456', name: '5g_test', methods: ['POST'])]
     public function measurementTest123456(Request $request): string
     {
-        return "kaas123";
+        return "kaas1234";
     }
 
     #[Route('/feedback', name: 'app_recieve_feedback', methods: ['POST'])]
