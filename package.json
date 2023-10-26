@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@popperjs/core": "^2.11.7",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.2.4",
+    "tailwindcss": "^3.3.1",
+    "webpack-notifier": "^1.15.0"
+  },
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "dependencies": {
+    "@symfony/stimulus-bridge": "^3.2.2",
+    "@symfony/webpack-encore": "^4.3.0",
+    "core-js": "^3.30.1"
+  }
+}
