@@ -60,6 +60,13 @@ class ApiController extends AbstractController
 
     }
 
+
+    #[Route('/measurement-test123', name: '5g_test', methods: ['POST'])]
+    public function measurementTest123(Request $request): JsonResponse
+    {
+
+
+    }
     #[Route('/feedback', name: 'app_recieve_feedback', methods: ['POST'])]
     public function recieveFeedback(Request $request): Response
     {
